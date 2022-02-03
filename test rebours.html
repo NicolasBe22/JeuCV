@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Test - Mon jeu CV</title>
+	<link rel="stylesheet" href="Jeu CV.css">
+</head>
+
+<body class="bodyJeu">
+	<h1 class="titreJeu"><br/>EVITEZ LES ALIENS !</h1>
+
+	<div id="compteurDebutJeu">Prêt ?</div>
+ 
+<script>
+    var compteARebours = document.getElementById('compteurDebutJeu');
+var compteur = 3;
+
+var decompte = setInterval(function(){
+    compteARebours.innerText = compteur;
+    compteur--;
+    if (compteur === 0) {
+        setTimeout(function() {
+            compteARebours.innerText = "GO !!!";
+            clearInterval(decompte);
+            }, 1000);   
+    }
+}, 1000); 
+</script>
+</body>
+</html>

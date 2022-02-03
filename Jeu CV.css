@@ -1,0 +1,147 @@
+.titreMenuPrincipal{
+    background-image: url("Photo_ovni_page_accueil.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    height : 250px;
+    max-height: max-content;
+}
+
+.boutonCV{
+    left: 30%;
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;  /* ne fonctionne pas */
+    border-radius: 10%;
+    border: black 1px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.boutonJeu{
+    left: 30%;
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;  /* ne fonctionne pas */
+    border-radius: 10%;
+    border: black 1px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.lienCV{
+    border: 2px solid black;
+    font-size: 25px;
+    background-color:rgb(177, 226, 192);
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    position: absolute;
+    left: 18%;
+   
+}
+
+.lienJeu{
+    border: 2px solid black;
+    font-size: 25px;
+    background-color:rgb(137, 182, 31);
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    
+}
+
+
+.titreJeu{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    vertical-align: middle;  /* ne fonctionne pas */
+    color: white;
+    background-image: url("Photo_ovni_page_accueil.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+}
+
+#cadre {
+    background-image: url("Terrain_jeu.jpg");
+    /*max-height: 100%;*/
+    border: 5px solid black;
+    background-color: blue;
+    height: 75%;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    position: absolute;
+    cursor: none;
+    left: 15%;
+    
+}
+
+#fillette {
+    box-sizing: box-border;
+    border:black 10px;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    background-image: url("Tete_enfant.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 50px;
+    /*transform: translate(-50%,-50%);*/  /* translate() : pour deplacer un element de sa position actuelle selon (X, Y) // NE FONCTIONNE PAS */
+    width: 50px;
+}
+
+.alien {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-image: url("Tete_alien.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+#alienUn {
+    top: 20%;
+    left: 20%;
+}
+
+#alienDeux {
+    top: 20%;
+    left: 80%;
+}
+
+#alienTrois {
+    top: 80%;
+    left: 20%;
+}
+
+#alienQuatre {
+    top: 80%;
+    left: 80%;
+}
+
